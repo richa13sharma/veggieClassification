@@ -19,12 +19,12 @@ def replacenth(string, sub, wanted, n):
     return newString
 
 def removeDecimal():
-    with open("./data.csv", 'rt') as f:
+    with open("./goodAfterHog.csv", 'rt') as f:
         data = csv.reader(f)
         list1 = []
         for row in data:
             i = 1
-            while i != 3781:
+            while i != 3780:
                 count = 0
                 len1 = len(row[i])
                 j = 0
@@ -33,8 +33,10 @@ def removeDecimal():
                     # print(len(row[i]))
                     if (row[i][j].__contains__('.')):
                         count += 1
+                        # print(count)
                     if (count >= 2):
                         row[i] = replacenth(row[i], '.', '', 3)
+                        print("Decimal removed")
                         len1 = len1 - 1
                         j -= 1
                         break
@@ -54,8 +56,9 @@ def removeE():
         count = 0
         for row in data:
             i = 1
-            while i != 3781:
-                # print(row[i])
+            while i != 3780:
+                print(row[i])
+                # print(i)
                 # print(len(row[i]))
                 if (row[i].__contains__('e')):
                     row[i] = float(row[i])
@@ -69,4 +72,4 @@ def removeE():
             writer.writerow(rows)
 
 removeDecimal()
-# removeE()
+removeE()

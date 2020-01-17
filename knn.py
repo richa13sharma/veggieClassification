@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
-csv = './data1.csv'
+csv = './data.csv'
 dataset = pd.read_csv(csv)
 
 # print(dataset.head())
