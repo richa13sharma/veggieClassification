@@ -12,10 +12,10 @@ from os import path
 numpy.set_printoptions(threshold=sys.maxsize)
 
 
-for i in range(1,342):
-    path1 = './dataset/GoodCarrotsCropped/finalGoodRotated/gr{0}s.png'.format(i)
+for i in range(1,841):
+    path1 = './dataset/goodRotated/grf{0}.png'.format(i)
     if (path.exists(path1)):
-        img = imread('./dataset/GoodCarrotsCropped/finalGoodRotated/gr{0}s.png'.format(i))
+        img = imread('./dataset/goodRotated/grf{0}.png'.format(i))
     
         resized_img = resize(img, (128,64))
         
@@ -26,7 +26,7 @@ for i in range(1,342):
         hog_image_rescaled = exposure.rescale_intensity(hog_image, in_range=(0, 10))
 
         res = fdlist
-        csvfile = './goodAfterHog.csv'
+        csvfile = './goodrotatedHog.csv'
 
         with open(csvfile, mode='a') as output:
             writer = csv.writer(output)
