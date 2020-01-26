@@ -12,7 +12,7 @@ dataset = pd.read_csv(csv)
 # print(dataset.head())
 
 X = dataset.iloc[:, :-1].values
-y = dataset.iloc[:, 3781].values
+y = dataset.iloc[:, -1].values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20)
 
 
