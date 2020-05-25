@@ -24,6 +24,7 @@ y = dataset.iloc[:, -1].values
 from sklearn.model_selection import cross_val_score
 
 knn = KNeighborsClassifier(n_neighbors=5)
+print (knn)
 scores = cross_val_score(knn, X, y, cv=10, scoring='accuracy')
 print(scores)
 print(scores.mean())

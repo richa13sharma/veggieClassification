@@ -1,12 +1,11 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
-csv = './data.csv'
+csv = '../reducedData.csv'
 dataset = pd.read_csv(csv)
 
 # print(dataset.head())
@@ -23,7 +22,8 @@ scaler.fit(X_train)
 X_train = scaler.transform(X_train)
 X_test = scaler.transform(X_test)
 
-classifier = KNeighborsClassifier(n_neighbors=10, weights='uniform', algorithm='auto')
+classifier = KNeighborsClassifier(n_neighbors=10)
+print(classifier)
 classifier.fit(X_train, y_train)
 
 y_pred = classifier.predict(X_test)
