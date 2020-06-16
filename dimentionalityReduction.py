@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("dataCopy.csv")
 print(df.head())
 
 features = df.iloc[:, -2]

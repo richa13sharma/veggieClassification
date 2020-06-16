@@ -1,0 +1,119 @@
+   0  0.0  0.0.1  0.0.2  0.0.3  ...  0.0.2188  0.0.2189  0.0.2190  0.0.2191  good
+0  1  0.0    0.0    0.0    0.0  ...       0.0       0.0       0.0       0.0  good
+1  2  0.0    0.0    0.0    0.0  ...       0.0       0.0       0.0       0.0  good
+2  3  0.0    0.0    0.0    0.0  ...       0.0       0.0       0.0       0.0  good
+3  4  0.0    0.0    0.0    0.0  ...       0.0       0.0       0.0       0.0  good
+4  5  0.0    0.0    0.0    0.0  ...       0.0       0.0       0.0       0.0  good
+
+[5 rows x 3782 columns]
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=10, p=2,
+                     weights='uniform')
+['ugly' 'ugly' 'ugly' 'good' 'good' 'good' 'good' 'good' 'good' 'good'
+ 'ugly' 'good' 'good' 'good' 'good' 'ugly' 'good' 'good' 'ugly' 'good'
+ 'good' 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'ugly'
+ 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'good' 'good' 'good' 'ugly' 'ugly'
+ 'good' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good' 'good' 'good' 'good'
+ 'good' 'good' 'ugly' 'good' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly'
+ 'ugly' 'good' 'ugly' 'good' 'ugly' 'good' 'good' 'ugly' 'ugly' 'ugly'
+ 'good' 'good' 'good' 'good' 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly'
+ 'good' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good'
+ 'good' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good' 'good' 'good' 'ugly'
+ 'good' 'ugly' 'good' 'good' 'ugly' 'ugly' 'good' 'good' 'good' 'good'
+ 'ugly' 'good' 'ugly' 'good' 'good' 'ugly' 'good' 'good' 'good' 'good'
+ 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'good' 'good' 'ugly' 'good' 'ugly'
+ 'good' 'good' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good' 'good' 'good'
+ 'good' 'good' 'good' 'good' 'good' 'ugly' 'good' 'ugly' 'good' 'good'
+ 'good' 'ugly' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly' 'good' 'ugly'
+ 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'ugly' 'good' 'good' 'good'
+ 'good' 'good' 'good' 'ugly' 'good' 'good' 'good' 'good' 'good' 'ugly'
+ 'ugly' 'good' 'good' 'good' 'good' 'good' 'ugly' 'good' 'ugly' 'ugly'
+ 'ugly' 'good' 'good' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly' 'ugly'
+ 'ugly' 'good' 'ugly' 'ugly' 'good' 'ugly' 'good' 'ugly' 'ugly' 'good'
+ 'good' 'good' 'good' 'good' 'good' 'good' 'ugly' 'good' 'ugly' 'good'
+ 'good' 'good' 'ugly' 'good' 'ugly' 'ugly' 'good' 'ugly' 'good' 'good'
+ 'good' 'ugly' 'ugly' 'good' 'ugly' 'good' 'good' 'ugly' 'ugly' 'ugly'
+ 'good' 'good' 'ugly' 'good' 'good' 'good' 'ugly' 'good' 'ugly' 'ugly'
+ 'good' 'ugly' 'good' 'ugly' 'good' 'good' 'good' 'good' 'good' 'good'
+ 'ugly' 'good' 'ugly' 'good' 'ugly' 'ugly' 'good' 'ugly' 'good' 'good'
+ 'good' 'ugly' 'good' 'good' 'good' 'good' 'good' 'ugly' 'ugly' 'ugly'
+ 'good' 'ugly' 'good' 'ugly' 'good' 'ugly' 'good' 'ugly' 'good' 'good'
+ 'ugly' 'good' 'good' 'good' 'ugly' 'good' 'good' 'good' 'ugly' 'good'
+ 'good' 'ugly' 'good' 'good' 'ugly' 'ugly' 'good' 'good' 'ugly' 'good'
+ 'ugly' 'ugly' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly' 'good' 'ugly'
+ 'good' 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good'
+ 'ugly' 'good' 'good' 'good' 'good' 'good' 'ugly' 'good' 'ugly' 'good'
+ 'ugly' 'good' 'good' 'ugly' 'good' 'good' 'good' 'good' 'good' 'ugly'
+ 'ugly' 'ugly' 'ugly' 'good' 'good' 'good' 'good' 'ugly' 'good' 'good'
+ 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'ugly' 'good' 'good' 'good'
+ 'good' 'ugly' 'good' 'good' 'good' 'ugly' 'good' 'good' 'ugly' 'good'
+ 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'ugly'
+ 'good' 'good' 'ugly' 'good' 'good' 'ugly' 'good' 'ugly' 'ugly' 'good'
+ 'ugly' 'good' 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good' 'ugly'
+ 'ugly' 'good' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly' 'good' 'good'
+ 'good' 'ugly' 'good' 'ugly' 'good' 'ugly' 'good' 'ugly' 'ugly' 'good'
+ 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good' 'good' 'good' 'ugly'
+ 'good' 'good' 'good' 'ugly' 'good' 'ugly' 'good' 'good' 'good' 'ugly'
+ 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'good' 'good'
+ 'ugly' 'good' 'ugly' 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly'
+ 'ugly' 'good' 'ugly' 'good' 'ugly' 'good' 'ugly' 'good' 'good' 'ugly'
+ 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'good' 'ugly' 'good'
+ 'good' 'good' 'good' 'ugly' 'ugly' 'good' 'good' 'ugly' 'good' 'good'
+ 'good' 'good' 'good' 'ugly' 'good' 'ugly' 'ugly' 'good' 'good' 'ugly'
+ 'ugly' 'ugly' 'good' 'ugly' 'good' 'good' 'ugly' 'good' 'ugly' 'ugly'
+ 'ugly' 'good' 'ugly' 'good' 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'good'
+ 'good' 'good' 'ugly' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly' 'good'
+ 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'good' 'ugly' 'good' 'ugly' 'ugly'
+ 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'good' 'good'
+ 'ugly' 'good' 'ugly' 'good' 'good' 'ugly' 'ugly' 'good' 'good' 'ugly'
+ 'ugly' 'ugly' 'good' 'ugly' 'good' 'ugly' 'good' 'ugly' 'ugly' 'good'
+ 'good' 'good' 'good' 'good' 'ugly' 'good' 'good' 'ugly' 'ugly' 'good'
+ 'good' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly'
+ 'good' 'good' 'ugly' 'good' 'good' 'ugly' 'good' 'ugly' 'good' 'good'
+ 'ugly' 'ugly' 'good' 'good' 'good' 'good' 'good' 'ugly' 'good' 'good'
+ 'good' 'ugly' 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'ugly'
+ 'good' 'good' 'good' 'ugly' 'good' 'ugly' 'good' 'good' 'ugly' 'good'
+ 'good' 'good' 'good' 'good' 'good' 'ugly' 'ugly' 'good' 'ugly' 'good'
+ 'ugly' 'good' 'ugly' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly' 'good'
+ 'ugly' 'good' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good' 'good' 'good'
+ 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'good' 'good' 'ugly' 'ugly' 'ugly'
+ 'ugly' 'ugly' 'ugly' 'good' 'good' 'ugly' 'ugly' 'good' 'ugly' 'good'
+ 'good' 'good' 'good' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'ugly' 'good'
+ 'good' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'good'
+ 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'good' 'ugly' 'good' 'good' 'ugly'
+ 'good' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'ugly'
+ 'good' 'good' 'ugly' 'good' 'ugly' 'good' 'good' 'ugly' 'good' 'good'
+ 'ugly' 'ugly' 'good' 'ugly' 'good' 'good' 'ugly' 'good' 'ugly' 'ugly'
+ 'ugly' 'good' 'ugly' 'good' 'good' 'good' 'good' 'ugly' 'ugly' 'ugly'
+ 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'good' 'ugly' 'good' 'good'
+ 'ugly' 'ugly' 'good' 'good' 'good' 'good' 'ugly' 'good' 'ugly' 'good'
+ 'good' 'ugly' 'good' 'good' 'good' 'good' 'good' 'ugly' 'ugly' 'ugly'
+ 'good' 'ugly' 'good' 'good' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly'
+ 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good' 'good' 'good'
+ 'ugly' 'good' 'ugly' 'ugly' 'good' 'good' 'ugly' 'ugly' 'good' 'good'
+ 'good' 'ugly' 'good' 'ugly' 'good' 'ugly' 'good' 'good' 'ugly' 'good'
+ 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'good'
+ 'good' 'good' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly' 'ugly' 'ugly'
+ 'good' 'good' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good' 'ugly' 'ugly'
+ 'good' 'ugly' 'ugly' 'ugly' 'good' 'good' 'ugly' 'ugly' 'ugly' 'good'
+ 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'good' 'ugly' 'ugly' 'good' 'good'
+ 'good' 'ugly' 'good' 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'ugly' 'good'
+ 'ugly' 'ugly' 'good' 'ugly' 'good' 'good' 'ugly' 'ugly' 'ugly' 'ugly'
+ 'ugly' 'ugly' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly' 'ugly' 'good'
+ 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good' 'good' 'ugly'
+ 'good' 'ugly' 'good' 'good' 'ugly' 'ugly' 'ugly' 'ugly' 'good' 'ugly'
+ 'ugly' 'ugly' 'good' 'good' 'good' 'ugly' 'ugly' 'ugly' 'good' 'ugly'
+ 'ugly' 'good' 'ugly' 'good' 'good' 'good' 'good' 'good' 'good' 'good'
+ 'good' 'good' 'ugly' 'ugly' 'ugly' 'good' 'ugly' 'ugly' 'good' 'good'
+ 'ugly' 'ugly' 'good']
+[[394  88]
+ [ 94 387]]
+              precision    recall  f1-score   support
+
+        good       0.81      0.82      0.81       482
+        ugly       0.81      0.80      0.81       481
+
+    accuracy                           0.81       963
+   macro avg       0.81      0.81      0.81       963
+weighted avg       0.81      0.81      0.81       963
+

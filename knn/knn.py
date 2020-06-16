@@ -5,14 +5,14 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
-csv = '../reducedData.csv'
+csv = "./data.csv"
 dataset = pd.read_csv(csv)
 
-# print(dataset.head())
+print(dataset.head())
 
 X = dataset.iloc[:, :-1].values #feature  matric
 y = dataset.iloc[:, -1].values #response vactor
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.10)
 
 
 scaler = StandardScaler()
