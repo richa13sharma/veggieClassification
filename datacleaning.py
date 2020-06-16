@@ -19,7 +19,7 @@ def replacenth(string, sub, wanted, n):
     return newString
 
 def removeDecimal():
-    with open("./goodAfterHog.csv", 'rt') as f:
+    with open("./dataCopy.csv", 'rt') as f:
         data = csv.reader(f)
         list1 = []
         for row in data:
@@ -43,6 +43,7 @@ def removeDecimal():
                     j += 1
                 i += 1
             list1.append(row)
+            continue
     o = open('data1.csv', 'w')
     with o:
         writer = csv.writer(o)
@@ -72,4 +73,4 @@ def removeE():
             writer.writerow(rows)
 
 removeDecimal()
-removeE()
+# removeE()
